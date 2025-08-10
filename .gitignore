@@ -1,2 +1,29 @@
+# Environment files
 .env
-logging_folder/logs/*
+.env.*
+
+# Python caches and builds
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.dylib
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+
+# Logs
+logging_folder/logs/
+*.log
+
+# IDE and editor settings
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
